@@ -32,7 +32,7 @@ public class UserService {
     }
 
     public void deleteUserByEmail(String email, String token) {
-        client.searchUserByEmail(email, token);
+        client.deleteUserByEmail(email, token);
     }
 
     public UserDTOResponse updateUserData(String token, UserDTORequest userDTO) {

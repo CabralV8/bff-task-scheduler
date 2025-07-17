@@ -48,7 +48,7 @@ public interface UserClient {
     AddressDTOResponse registerAddres(@RequestBody AddressDTORequest addressDTO,
                                       @RequestHeader("Authorization") String token);
 
-    @PostMapping("/telphone")
+    @PostMapping("/telephone")
     TelephoneDTOResponse registerTelephone(@RequestBody TelephoneDTORequest telephoneDTO,
                                            @RequestHeader("Authorization") String token);
 
